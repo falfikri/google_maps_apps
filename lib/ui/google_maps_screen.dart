@@ -58,7 +58,7 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
         icon: BitmapDescriptor.defaultMarker,
       ),
     );
-    
+
     _markers.add(
       Marker(
         markerId: const MarkerId("0.9653413671650932, 104.44089448494357"),
@@ -79,7 +79,7 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
         ),
       ),
       body: GoogleMap(
-        mapType: MapType.satellite,
+        mapType: MapType.normal,
         initialCameraPosition: CameraPosition(
           target: _currentPosition,
           zoom: 17.0,
