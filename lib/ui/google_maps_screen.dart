@@ -25,6 +25,9 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
   final LatLng k_walkottpi =
       const LatLng(0.9653413671650932, 104.44089448494357);
 
+  final LatLng bandara_rhf =
+      const LatLng(0.9223549912911251, 104.52667255320537);
+
   @override
   void initState() {
     _markers.add(
@@ -63,6 +66,14 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
       Marker(
         markerId: const MarkerId("0.9653413671650932, 104.44089448494357"),
         position: k_walkottpi,
+        icon: BitmapDescriptor.defaultMarker,
+      ),
+    );
+    
+    _markers.add(
+      Marker(
+        markerId: const MarkerId("0.9223549912911251, 104.52667255320537"),
+        position: bandara_rhf,
         icon: BitmapDescriptor.defaultMarker,
       ),
     );
