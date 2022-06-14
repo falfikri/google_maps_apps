@@ -17,16 +17,16 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
       const LatLng(0.9371846230619755, 104.5183505076406);
 
   final LatLng mall_tcc =
-      const LatLng(0.8942866230087267, 104.47956706874625);
+      const LatLng(0.8943100337162736, 104.47956960565179);
 
   final LatLng kb_dompak =
-      const LatLng(0.8763923993562516, 104.44514194616016);
+      const LatLng(0.8762358911141922, 104.44514350377196);
 
   final LatLng k_walkottpi =
-      const LatLng(0.9653413671650932, 104.44089448494357);
+      const LatLng(0.9680811857509942, 104.44057843656628);
 
   final LatLng bandara_rhf =
-      const LatLng(0.9223549912911251, 104.52667255320537);
+      const LatLng(0.9217820481448493, 104.52680438532332);
 
   @override
   void initState() {
@@ -48,7 +48,7 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
 
     _markers.add(
       Marker(
-        markerId: const MarkerId("0.8942866230087267, 104.47956706874625"),
+        markerId: const MarkerId("0.8943100337162736, 104.47956960565179"),
         position: mall_tcc,
         icon: BitmapDescriptor.defaultMarker,
       ),
@@ -56,7 +56,7 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
 
     _markers.add(
       Marker(
-        markerId: const MarkerId("0.8763923993562516, 104.44514194616016"),
+        markerId: const MarkerId("0.8762358911141922, 104.44514350377196"),
         position: kb_dompak,
         icon: BitmapDescriptor.defaultMarker,
       ),
@@ -64,7 +64,7 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
 
     _markers.add(
       Marker(
-        markerId: const MarkerId("0.9653413671650932, 104.44089448494357"),
+        markerId: const MarkerId("0.9680811857509942, 104.44057843656628"),
         position: k_walkottpi,
         icon: BitmapDescriptor.defaultMarker,
       ),
@@ -72,7 +72,7 @@ class _GoogleMapsScreenKaryawanState extends State<GoogleMapsScreen> {
     
     _markers.add(
       Marker(
-        markerId: const MarkerId("0.9223549912911251, 104.52667255320537"),
+        markerId: const MarkerId("0.9217820481448493, 104.52680438532332"),
         position: bandara_rhf,
         icon: BitmapDescriptor.defaultMarker,
       ),
